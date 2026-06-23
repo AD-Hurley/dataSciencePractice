@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5be11c9-f0a8-4024-91df-74f958f88305" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex11_dict_tuples_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11_dict_tuples_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11_dict_tuples_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex13_ReadWrite_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex13_ReadWrite_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex15_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex16_ClassesObjects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +85,10 @@
       <entry key="W1" value="214.680983256612" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3F6UIjWjMmmGG5XwjlZUb89xSt2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -101,6 +100,10 @@
     "Python.ex11_dict_tuples_1.executor": "Run",
     "Python.ex11_dict_tuples_2.executor": "Run",
     "Python.ex11_dict_tuples_3.executor": "Run",
+    "Python.ex13_ReadWrite_1.executor": "Run",
+    "Python.ex13_ReadWrite_2.executor": "Run",
+    "Python.ex15_exceptions.executor": "Run",
+    "Python.ex16_ClassesObjects.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -120,7 +123,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.25134.203" />
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
       </set>
     </attachedChunks>
   </component>
@@ -132,6 +136,8 @@
       <option name="presentableId" value="Default" />
       <updated>1781394934668</updated>
       <workItem from="1781394935747" duration="2932000" />
+      <workItem from="1781535017433" duration="77000" />
+      <workItem from="1782220735508" duration="8894000" />
     </task>
     <servers />
   </component>
@@ -139,8 +145,12 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pyCode$ex13_ReadWrite_2.coverage" NAME="ex13_ReadWrite_2 Coverage Results" MODIFIED="1782228270204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCode$ex16_ClassesObjects.coverage" NAME="ex16_ClassesObjects Coverage Results" MODIFIED="1782231116138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$ex11_dict_tuples_2.coverage" NAME="ex11_dict_tuples_2 Coverage Results" MODIFIED="1781397135759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$ex11_dict_tuples_3.coverage" NAME="ex11_dict_tuples_3 Coverage Results" MODIFIED="1781397483404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$ex11_dict_tuples_1.coverage" NAME="ex11_dict_tuples_1 Coverage Results" MODIFIED="1781396088442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCode$ex13_ReadWrite_1.coverage" NAME="ex13_ReadWrite_1 Coverage Results" MODIFIED="1782227332526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCode$ex15_exceptions.coverage" NAME="ex15_exceptions Coverage Results" MODIFIED="1782229606560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
