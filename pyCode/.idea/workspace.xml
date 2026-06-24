@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5be11c9-f0a8-4024-91df-74f958f88305" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex13_ReadWrite_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex13_ReadWrite_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex15_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex16_ClassesObjects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex17_inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex18_multiInheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex19_raiseExceptionFinally.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex20_iterators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,32 +94,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ex11_dict_tuples_1.executor": "Run",
-    "Python.ex11_dict_tuples_2.executor": "Run",
-    "Python.ex11_dict_tuples_3.executor": "Run",
-    "Python.ex13_ReadWrite_1.executor": "Run",
-    "Python.ex13_ReadWrite_2.executor": "Run",
-    "Python.ex15_exceptions.executor": "Run",
-    "Python.ex16_ClassesObjects.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ex11_dict_tuples_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex11_dict_tuples_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex11_dict_tuples_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex13_ReadWrite_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex13_ReadWrite_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex15_exceptions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex16_ClassesObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex17_inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex18_multiInheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex19_raiseExceptionFinally.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex20_iterators.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -138,6 +142,8 @@
       <workItem from="1781394935747" duration="2932000" />
       <workItem from="1781535017433" duration="77000" />
       <workItem from="1782220735508" duration="8894000" />
+      <workItem from="1782236034476" duration="3897000" />
+      <workItem from="1782339296838" duration="744000" />
     </task>
     <servers />
   </component>
@@ -146,7 +152,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyCode$ex13_ReadWrite_2.coverage" NAME="ex13_ReadWrite_2 Coverage Results" MODIFIED="1782228270204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCode$ex17_inheritance.coverage" NAME="ex17_inheritance Coverage Results" MODIFIED="1782236811505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCode$ex20_iterators.coverage" NAME="ex20_iterators Coverage Results" MODIFIED="1782239906356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$ex16_ClassesObjects.coverage" NAME="ex16_ClassesObjects Coverage Results" MODIFIED="1782231116138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCode$ex18_multiInheritance.coverage" NAME="ex18_multiInheritance Coverage Results" MODIFIED="1782237663668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyCode$ex19_raiseExceptionFinally.coverage" NAME="ex19_raiseExceptionFinally Coverage Results" MODIFIED="1782238718465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$ex11_dict_tuples_2.coverage" NAME="ex11_dict_tuples_2 Coverage Results" MODIFIED="1781397135759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$ex11_dict_tuples_3.coverage" NAME="ex11_dict_tuples_3 Coverage Results" MODIFIED="1781397483404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$ex11_dict_tuples_1.coverage" NAME="ex11_dict_tuples_1 Coverage Results" MODIFIED="1781396088442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
